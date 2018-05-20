@@ -7,6 +7,7 @@ def display_rainbow(colors)
   end
   i=i+1
   outputString = outputString + "#{letters[i]}: #{colors[i]}"
+  puts outputString
 end
 
 display_rainbow(["Red","Blue"])
