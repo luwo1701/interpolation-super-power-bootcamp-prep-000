@@ -5,7 +5,7 @@ def display_rainbow(colors)
   for i in 0..colors.length-2
     puts "#{letters[i]}: #{colors[i]},"
   end
-  i++
+  i=i+1
   puts "#{letters[i]}: #{colors[i]}"
 end
 
