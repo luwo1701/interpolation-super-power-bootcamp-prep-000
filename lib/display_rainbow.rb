@@ -6,3 +6,5 @@ def display_rainbow(colors)
   end
   puts "#{letters[i]}: #{colors}"
 end
+
+display_rainbow(["Red","Blue"])
