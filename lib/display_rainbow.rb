@@ -10,4 +10,4 @@ def display_rainbow(colors)
   puts outputString
 end
 
-display_rainbow(["Red","Blue"])
+#display_rainbow(["Red","Blue"])
